@@ -12,7 +12,7 @@ void print_vec(vector<int> vec);
 int main(int argc, char** argv){
 
 	if( argc != 3){
-		cout<<" <tokens.txt> "<<endl;
+		cout<<" <tokens.txt> + <regras.txt> "<<endl;
 	}
 
 	ifstream ftokens;
@@ -63,6 +63,7 @@ int main(int argc, char** argv){
 				X = stack.back(); // update var
 				a = entrada.back();
 			}else{
+
 				cout<<"Erro"<<endl;
 				return -1;
 			}
@@ -83,6 +84,7 @@ int main(int argc, char** argv){
 			return -3;
 		}
 	}
+	
 	return 0;
 }	
 

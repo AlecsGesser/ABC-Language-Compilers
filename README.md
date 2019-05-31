@@ -31,3 +31,4 @@ void main {
 ##### Executing:
 ```bash
 ./lex.exe <path/code.abc>
+```

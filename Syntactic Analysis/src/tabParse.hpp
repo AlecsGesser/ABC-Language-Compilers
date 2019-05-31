@@ -57,11 +57,12 @@ void init_tab(vector<vector<int> >& tabParsing){
 	tabParsing[60][26] = 16;
 	tabParsing[61][39] = 26;
 	tabParsing[61][46] = 27;
-	tabParsing[62][3] = 24;
+	//tabParsing[62][3] = 24;
 	tabParsing[62][5] = 20;
 	tabParsing[62][6] = 21;
+	tabParsing[62][7] = 22;
 	tabParsing[62][8] = 23;
-	tabParsing[62][9] = 22;
+	tabParsing[62][10] = 24;
 	tabParsing[62][45] = 25;
 	tabParsing[63][3] = 28;
 	tabParsing[63][13] = 28;
@@ -70,11 +71,11 @@ void init_tab(vector<vector<int> >& tabParsing){
 	tabParsing[64][40] = 29;
 	tabParsing[64][45] = 30;
 	tabParsing[65][1] = 52;
-	tabParsing[65][5] = 37;
-	tabParsing[65][6] = 37;
-	tabParsing[65][7] = 37;
-	tabParsing[65][8] = 37;
-	tabParsing[65][10] = 37;
+	
+	
+	tabParsing[65][7] = 34;
+	tabParsing[65][8] = 36;
+	tabParsing[65][10] = 35;
 	tabParsing[65][16] = 49;
 	tabParsing[65][18] = 64;
 	tabParsing[65][23] = 67;
@@ -82,9 +83,23 @@ void init_tab(vector<vector<int> >& tabParsing){
 	tabParsing[65][25] = 68;
 	tabParsing[65][27] = 39;
 	tabParsing[65][40] = 38;
-	tabParsing[65][46] = 37;
-	tabParsing[66][20] = 32; // corrigido para 32 antes era 33
-	tabParsing[66][38] = 33;
+
+
+	tabParsing[66][1] = 33;
+	tabParsing[66][7] = 33;
+	tabParsing[66][8] = 33;
+	tabParsing[66][10] = 33;
+	tabParsing[66][16] = 33;
+	tabParsing[66][18] = 33;
+	tabParsing[66][20] = 32;
+	tabParsing[66][23] = 33;
+	tabParsing[66][24] = 33;
+	tabParsing[66][25] = 33;
+	tabParsing[66][27] = 33;
+	tabParsing[66][38] = 32;
+	tabParsing[66][40] = 33;
+
+	
 	tabParsing[67][5] = 75;
 	tabParsing[67][6] = 75;
 	tabParsing[67][7] = 75;
@@ -92,55 +107,65 @@ void init_tab(vector<vector<int> >& tabParsing){
 	tabParsing[67][10] = 75;
 	tabParsing[67][27] = 76;
 	tabParsing[67][46] = 75;
-	tabParsing[68][32] = 40;
+
 	tabParsing[68][40] = 40;
 	tabParsing[68][45] = 40;
 	tabParsing[68][46] = 41;
+
 	tabParsing[69][5] = 44;
 	tabParsing[69][6] = 46;
 	tabParsing[69][7] = 48;
 	tabParsing[69][8] = 47;
 	tabParsing[69][10] = 45;
+
 	tabParsing[70][43] = 43;
 	tabParsing[70][45] = 42;
+
 	tabParsing[71][29] = 56;
 	tabParsing[71][30] = 55;
 	tabParsing[71][31] = 53;
 	tabParsing[71][33] = 58;
-	tabParsing[71][34] = 57;
+	tabParsing[71][35] = 57;
 	tabParsing[71][48] = 54;
+
 	tabParsing[72][21] = 50;
 	tabParsing[72][40] = 51;
+
 	tabParsing[73][5] = 59;
 	tabParsing[73][6] = 60;
 	tabParsing[73][7] = 63;
 	tabParsing[73][8] = 62;
 	tabParsing[73][10] = 61;
+
 	tabParsing[74][36] = 65;
 	tabParsing[74][49] = 66;
-	tabParsing[75][34] = 72;
+
+	tabParsing[75][34] = 71;
 	tabParsing[75][40] = 70;
+
 	tabParsing[76][34] = 73;
 	tabParsing[76][40] = 73;
 	tabParsing[76][43] = 74;
+
 	tabParsing[79][5] = 80;
 	tabParsing[79][6] = 80;
 	tabParsing[79][7] = 80;
 	tabParsing[79][8] = 80;
 	tabParsing[79][10] = 80;
 	tabParsing[79][46] = 80;
-	tabParsing[80][32] = 79;
+
 	tabParsing[80][37] = 77;
 	tabParsing[80][40] = 79;
 	tabParsing[80][45] = 79;
 	tabParsing[80][50] = 78;
+
 	tabParsing[81][5] = 84;
 	tabParsing[81][6] = 85;
 	tabParsing[81][7] = 86;
 	tabParsing[81][8] = 88;
 	tabParsing[81][10] = 87;
 	tabParsing[81][46] = 89;
-	tabParsing[82][32] = 81;
+
 	tabParsing[82][37] = 81;
 	tabParsing[82][40] = 81;
 	tabParsing[82][42] = 83;
